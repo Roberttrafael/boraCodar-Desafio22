@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(107.54deg, #935FD3 0%, #9245F1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Heebo", sans-serif;
+}
+
+.card{
+    background-color: #FDFCFE;
+    height: 584px;
+    width: 375px;
+    border-radius: 12px;
+    padding: 24px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-top{
+    display: flex;
+    gap: 16px;
+}
+
+.card-top .avatar{
+    height: 48px;
+    width: 48px;
+}
+
+.card-top h3{
+    font-size: 18px;
+    line-height: 24px;
+    color: #38343D;
+}
+
+.card-top span{
+    font-size: 14px;
+    line-height: 18px;
+    color: #686071;
+}
+
+.options{
+    border-top: 1px solid #F4EFFA;
+    width: 327px;
+}
+
+.options span{
+    text-transform: uppercase;
+    color: #797085;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.details{
+    padding: 16px 0;
+    border-bottom: 1px solid #F4EFFA;
+}
+
+.other{
+    padding: 16px 0;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.item p{
+    font-size: 16px;
+    color: #38343D;
+    line-height: 20px;
+    width: 100%;
+}
+
+.item-sair{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    cursor: pointer;
+    color: #AA2222;
+}
+
